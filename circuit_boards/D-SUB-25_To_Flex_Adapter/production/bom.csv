@@ -1,0 +1,7 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"H1, H2, H3, H4",MountingHole_3.2mm_M3_DIN965_Pad,4,MountingHole,
+J1,PinHeader_1x15_P2.54mm_Vertical,1,Conn_01x15_Pin,
+J2,15P 1mm FPC FFC Flat Cable Connector,1,Conn_01x15,
+J3,DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm,1,DB25_Female_MountingHoles,
+J4,PinHeader_1x10_P2.54mm_Vertical,1,Conn_01x10_Pin,
+"JP1, JP10, JP11, JP12, JP13, JP14, JP15, JP2, JP3, JP4, JP5, JP6, JP7, JP8, JP9",SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm,15,SolderJumper_2_Bridged,
