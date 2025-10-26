@@ -1,1 +1,0 @@
-Models used for the recognition of current drops
