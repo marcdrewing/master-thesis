@@ -33,7 +33,7 @@ def create_sequences(X, y, seq_length=SEQ_LEN):
     Xs, ys = [], []
     for i in range(len(X) - seq_length):
         Xs.append(X[i:(i + seq_length)])
-        ys.append(y[i + seq_length])
+        ys.append(y[i + seq_length-1])
     return np.array(Xs), np.array(ys)
 
 X_seq, y_seq = create_sequences(X_scaled, y_scaled)
@@ -58,3 +58,4 @@ print("Starte Evaluation...")
 evaluate_model(model, X_seq, y_seq, scaler_y)
 
 print("Fertig.")
+
